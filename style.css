@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./assets/bg-light.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  height: 40vh;
+}

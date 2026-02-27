@@ -13,15 +13,21 @@ body {
   font-family: "Inter", "Inter Fallback", sans-serif;
 }
 
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
 .navbar {
-  max-width: 1120px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  padding: 16px 24px;
-  position: relative;
-  z-index: 100;
+  padding: 20px 10rem;
+  backdrop-filter: blur(10px);
 }
 
 .logo img {
@@ -67,4 +73,70 @@ body {
   font-size: 15px;
   font-weight: 500;
   cursor: pointer;
+}
+
+.hero-content {
+  max-width: 688px;
+  margin: 10rem auto 6rem auto;
+  text-align: center;
+  justify-items: center;
+  padding: 72px 0 96 0;
+}
+
+.hero-content h1 {
+  font-size: 60px;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.hero-content p {
+  color: lab(100 0 0);
+  max-width: 472px;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+  margin-top: 24px;
+  margin-bottom: 2rem;
+}
+
+.email-form {
+  display: flex;
+  background-color: lab(100 0 0 / 0.15);
+  border: 0.8px solid lab(100 0 0 / 0.15);
+  border-radius: 2.68435e7px;
+  padding: 4px;
+  width: 360px;
+}
+
+.email-form input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 0 1rem;
+  font-size: 15px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.email-form button {
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 2.68435e7px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.hero-image-light {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image-light img {
+  border-radius: 1rem;
 }

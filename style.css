@@ -160,7 +160,7 @@ input::placeholder {
 
 .intelligence-section {
   max-width: 550px;
-  margin: 10rem auto 6rem auto;
+  margin: 10rem auto 3rem auto;
   text-align: center;
 }
 
@@ -176,4 +176,222 @@ input::placeholder {
   line-height: 27px;
   font-weight: 400;
   margin-top: 20px;
+}
+
+.feature-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  max-width: 1050px;
+  margin: auto;
+}
+
+.feature-item {
+  border: 0.8px solid lab(2.42579 -0.165291 -0.470081 / 0.07);
+  border-radius: 20px;
+  padding: 30px;
+  color: white;
+  line-height: 24px;
+}
+
+.feature-item h3 {
+  color: lab(2.42579 -0.165291 -0.470081);
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.feature-content {
+  color: lab(51.3415 -41.5657 15.3527);
+  font-size: 16px;
+  line-height: 27px;
+  font-weight: 400;
+  margin-top: 20px;
+  padding-right: 6rem;
+}
+
+.full-width {
+  grid-column: span 2;
+  text-align: center;
+}
+
+.feature-item video {
+  width: 100%;
+  border-radius: 16px;
+}
+
+.feature-content2 {
+  color: lab(51.3415 -41.5657 15.3527);
+  font-size: 16px;
+  line-height: 27px;
+  font-weight: 400;
+  margin-top: 20px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.enterprise-container {
+  background-color: lab(2.42579 -0.165291 -0.470081 / 0.03);
+  padding: 8rem 0 4rem 0;
+  margin-top: 10rem;
+}
+
+.enterprise-section {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1050px;
+  margin: auto;
+}
+
+.enterprise-section h4 {
+  color: lab(51.3415 -41.5657 15.3527);
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.enterprise-section h3 {
+  color: lab(2.42579 -0.165291 -0.470081);
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  line-height: 48px;
+  max-width: 500px;
+}
+
+.enterprise-section p {
+  color: lab(51.3415 -41.5657 15.3527);
+  font-size: 16px;
+  line-height: 27px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.enterprise-links {
+  margin-top: 9rem;
+}
+
+.enterprise-section a {
+  background-color: lab(2.42579 -0.165291 -0.470081);
+  color: #ffffff;
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: 400;
+  padding: 12px 2rem;
+  border: 0.8px solid lab(2.42579 -0.165291 -0.470081 / 0.8);
+  border-radius: 2.68435e7px;
+  cursor: pointer;
+}
+
+.build-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  max-width: 1050px;
+  margin: auto;
+  margin-top: 4rem;
+}
+
+.build-container svg {
+  color: rgb(5, 150, 105);
+}
+
+.build-container h4 {
+  color: lab(2.42579 -0.165291 -0.470081);
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.build-container p {
+  color: lab(2.42579 -0.165291 -0.470081 / 0.8);
+  font-size: 16px;
+  line-height: 27px;
+  font-weight: 400;
+  margin-top: 20px;
+  max-width: 500px;
+}
+
+.customer-story {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 80px;
+  padding: 50px;
+  border-radius: 20px;
+  background-image: url("./assets/anthropic.svg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  height: 520px;
+  max-width: 1050px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.customer-story-p {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 27px;
+  font-weight: 600;
+}
+
+.customer-story-h3 {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 20px;
+  line-height: 36px;
+  max-width: 380px;
+}
+
+.customer-story span {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.customer-story-stats {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.customer-story-stats-p {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 27px;
+}
+
+.customer-story-content {
+  color: oklab(0.999994 0.0000455677 0.0000200868 / 0.8);
+  font-size: 14px;
+  line-height: 27px;
+  font-weight: 400;
+  margin-top: 20px;
+  max-width: 180px;
+}
+
+.customer-logos {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 30px;
+  margin-top: 20px;
+  align-items: center;
+  text-align: center;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.customer-logos img {
+  width: 70%;
+  height: auto;
+  opacity: 0.5;
 }

@@ -140,3 +140,20 @@ input::placeholder {
 .hero-image-light img {
   border-radius: 1rem;
 }
+
+.trusted-by {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 1rem;
+  row-gap: 2rem;
+  margin-top: 4rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 12rem;
+}
+
+.trusted-partner img {
+  width: 45%;
+  height: auto;
+}
